@@ -1,6 +1,6 @@
 FROM python:3.8-alpine
 
-RUN apk add build-base
+RUN apk add build-base git
 
 RUN pip install --quiet --no-cache-dir mkdocs
 
