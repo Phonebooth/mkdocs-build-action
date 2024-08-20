@@ -10,6 +10,7 @@ echo "Starting mkdocs build"
 ####################################################
 
 chmod -R a+w /github/workspace
+git config --global --add safe.directory /github/workspace
 
 ####################################################
 # Build the Mkdocs site
