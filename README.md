@@ -1,3 +1,9 @@
+# Archived Notice
+
+This Action is no longer used for Relay projects as of 2024-12-20. Phonebooth/wiki was updated to run `mkdocs build` manually on the runner rather than in a Docker container. The original README.md continues below.
+
+--------
+
 # mkdocs-build-action
 Plain in-place mkdocs build action to be used in pipelines with a variety of possible deploy targets.
 
